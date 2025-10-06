@@ -5,7 +5,7 @@ import Levenshtein
 from funasr import AutoModel
 
 """
- 验证微调后的模型，与原模型对比
+ 微调模型项目中用于验证微调后的模型，与原模型对比
 
  conda activate asr_new
  python verify_model.py -m /data/model/iic/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch -f /data/FunASR/examples/industrial_data_pretraining/paraformer/outputs -c /data/nn/nn_testsets.csv
